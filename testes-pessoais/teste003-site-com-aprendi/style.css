@@ -1,0 +1,15 @@
+main {
+    background-color: white;
+    width: 750px;
+    margin: auto;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #79DE68, #5CCC5C, #28B856, #384241, #262F2E);
+}
+
+p {
+    text-align: justify;
+}
