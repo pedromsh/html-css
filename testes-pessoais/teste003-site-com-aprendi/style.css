@@ -10,6 +10,28 @@ body {
     background-image: linear-gradient(to bottom, #79DE68, #5CCC5C, #28B856, #384241, #262F2E);
 }
 
+h1 {
+    text-align: center;
+    color: #5CCC5C;
+}
+
+h2 {
+    color: #28B856;
+}
+
+h3 {
+    text-align: center;
+    color: #262F2E;
+}
+
 p {
     text-align: justify;
+}
+
+p#ancora {
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
 }
