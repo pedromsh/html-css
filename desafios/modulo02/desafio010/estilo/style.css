@@ -48,12 +48,16 @@ header > p {
     color: white;
 }
 
-nav {
-    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3), var(--cor4), var(--cor5));
-}
-
 main {
     background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    min-width: 300px;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.453);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 main h1 {
@@ -62,6 +66,16 @@ main h1 {
 
 main h2 {
     font-family: var(--fonte-android);
+}
+
+main img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+main img.pequena {
+    width: 50%;   
 }
 
 footer {
